@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# Virtual environment
+venv/
+env/
+*.env
+*.venv
+
+# Environment variables & secrets
+.env
+*.env.local
+config.py
+instance/
+
+# Flask & Python logs
+*.log
+logs/
+*.sqlite
+*.sqlite3
+db.sqlite3
+*.db
+
+# Compiled files
+*.o
+*.out
+*.exe
+*.class
+*.dll
+
+# System files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Node.js / Frontend (if applicable)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+dist/
+build/
+
+# Selenium-related files (if applicable)
+chromedriver
+geckodriver
+selenium-screenshots/
