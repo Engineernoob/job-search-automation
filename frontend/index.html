@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Search Automation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Job Search Automation</h1>
+
+    <!-- Job Search Form -->
+    <div class="form-container">
+        <h2>Search for Jobs</h2>
+        <input type="text" id="jobTitle" placeholder="Job Title">
+        <input type="text" id="location" placeholder="Location">
+        <button onclick="searchJobs()">Search</button>
+    </div>
+
+    <div id="jobResults"></div>
+
+    <!-- Job Application Form -->
+    <div class="form-container">
+        <h2>Apply to a Job</h2>
+        <input type="text" id="jobLink" placeholder="Job Link">
+        <button onclick="applyJob()">Apply</button>
+    </div>
+
+    <div id="applicationStatus"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
